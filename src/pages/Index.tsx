@@ -18,8 +18,8 @@ const NAV_LINKS = [
 const EXPERIENCE = [
   {
     period: "2020 — наст. время",
-    role: "Управляющий партнёр",
-    company: "Название компании",
+    role: "Управляющий",
+    company: "JudoTS",
     description:
       "Стратегическое руководство, развитие ключевых партнёрств, управление командой из 50+ человек. Рост выручки в 3 раза за 4 года.",
   },
@@ -372,7 +372,7 @@ export default function Index() {
             onClick={() => scrollTo("#hero")}
             className="font-cormorant text-xl font-semibold tracking-wide text-[var(--text-primary)]"
           >
-            ИО<span className="text-[var(--gold)]">.</span>
+            ТШ<span className="text-[var(--gold)]">.</span>
           </button>
           <div className="hidden lg:flex items-center gap-8">
             {NAV_LINKS.map((l) => (
@@ -423,9 +423,9 @@ export default function Index() {
               Личный бренд / Профессиональное представление
             </p>
             <h1 className="font-cormorant text-6xl lg:text-7xl xl:text-8xl font-light leading-[0.9] mb-6 text-[var(--text-primary)]">
-              Имя
+              Темирлан
               <br />
-              <span className="italic text-[var(--text-secondary)]">Фамилия</span>
+              <span className="italic text-[var(--text-secondary)]">Шахнавазов</span>
             </h1>
             <div className="w-12 h-px bg-[var(--gold)] mb-6" />
             <p className="font-ibm text-base font-light text-[var(--text-muted)] leading-relaxed mb-10 max-w-md">
@@ -462,7 +462,7 @@ export default function Index() {
               />
               <div className="absolute bottom-6 left-6 right-6 z-20 border border-[var(--border-subtle)] bg-[var(--bg-primary)]/90 backdrop-blur-sm px-5 py-4">
                 <p className="font-cormorant text-xl text-[var(--text-primary)]">
-                  Управляющий партнёр
+                  Управляющий — JudoTS
                 </p>
                 <p className="font-ibm text-xs tracking-widest uppercase text-[var(--gold)] mt-1">
                   12+ лет экспертизы
@@ -813,18 +813,18 @@ export default function Index() {
                     className="flex items-center gap-3 font-ibm text-sm text-[var(--text-muted)] hover:text-[var(--gold)] transition-colors"
                   >
                     <Icon name="Mail" size={16} className="text-[var(--gold)]" />
-                    hello@example.com
+                    hello@judots.ru
                   </a>
                   <a
-                    href="tel:+79001234567"
+                    href="tel:+79199294168"
                     className="flex items-center gap-3 font-ibm text-sm text-[var(--text-muted)] hover:text-[var(--gold)] transition-colors"
                   >
                     <Icon name="Phone" size={16} className="text-[var(--gold)]" />
-                    +7 (900) 123-45-67
+                    +7 (919) 929-41-68
                   </a>
                   <div className="flex items-center gap-3 font-ibm text-sm text-[var(--text-muted)]">
                     <Icon name="MapPin" size={16} className="text-[var(--gold)]" />
-                    Москва, Россия
+                    Тюмень, Россия
                   </div>
                 </div>
                 <div className="flex gap-4 mt-8">
@@ -850,7 +850,7 @@ export default function Index() {
       <footer className="border-t border-[var(--border-subtle)] py-8">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-ibm text-xs text-[var(--text-muted)] tracking-wide">
-            © 2026 Имя Фамилия. Все права защищены.
+            © 2026 Темирлан Шахнавазов. Все права защищены.
           </p>
           <p className="font-cormorant text-sm text-[var(--text-muted)] italic">
             Профессионализм. Результат. Доверие.
